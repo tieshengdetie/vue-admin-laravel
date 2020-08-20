@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18b5e806-0630-4ff8-9146-16344706ff6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wind_vue/src/pages/gate-manage/tempreture.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/api/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/api/permission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/components/dynamic-menu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/components/dynamic-menu.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/config/baseUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/config/baseUrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/config/httpConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/config/httpConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/pages/layout/component/main-content/top-aside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/pages/layout/component/main-content/top-aside.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/pages/layout/component/sidebar-nav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/pages/layout/component/sidebar-nav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/pages/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/pages/login/login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/pages/permission/menu-manage/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/pages/permission/menu-manage/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/pages/permission/role-manage/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/pages/permission/role-manage/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/pages/permission/user-manage/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/pages/permission/user-manage/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/router/dynamic-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/router/dynamic-router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/store/getters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/store/modules/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/store/modules/permission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/src/utils/recursion-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/src/router/recursion-router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind_vue/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/wind_vue/vue.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="18b5e806-0630-4ff8-9146-16344706ff6e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wind_vue" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -144,6 +122,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ffAGk8bAGVVIsLKCQTkWeewtPz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -202,7 +181,7 @@
       <workItem from="1597622765798" duration="27814000" />
       <workItem from="1597710353606" duration="637000" />
       <workItem from="1597711051710" duration="27197000" />
-      <workItem from="1597794688674" duration="30558000" />
+      <workItem from="1597794688674" duration="31096000" />
     </task>
     <servers />
   </component>
