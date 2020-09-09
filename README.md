@@ -28,11 +28,11 @@ laravel5 做的后端接口
 
 ![image](https://github.com/tieshengdetie/vue-admin-laravel/blob/master/home.jpg)
 
-![image](https://github.com/tieshengdetie/vue-admin-laravel/blob/master/juese.jpg)
+![image](https://github.com/tieshengdetie/vue-admin-laravel/blob/master/juese.png)
 
-![image](https://github.com/tieshengdetie/vue-admin-laravel/blob/master/caidan.jpg)
+![image](https://github.com/tieshengdetie/vue-admin-laravel/blob/master/caidan.png)
 
-![image](https://github.com/tieshengdetie/vue-admin-laravel/blob/master/bumen.jpg)
+![image](https://github.com/tieshengdetie/vue-admin-laravel/blob/master/bumen.png)
 
 
 
