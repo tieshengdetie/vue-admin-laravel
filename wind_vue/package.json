@@ -5,7 +5,7 @@
   "author": "zhaojinsheng",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "serve:randy": "cross-env API_TYPE=randy vue-cli-service serve",
+    "dev": "cross-env API_TYPE=randy vue-cli-service serve",
     "serve:peter": "cross-env API_TYPE=peter vue-cli-service serve",
     "build": "vue-cli-service build",
     "analyze": "vue-cli-service build",

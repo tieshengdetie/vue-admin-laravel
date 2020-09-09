@@ -12,7 +12,7 @@ function resolve(dir) {
     return path.join(__dirname, dir)
 }
 const proxyTargetMap = {
-    prod: 'http://www.wind.com:8886',
+    prod: 'http://192.168.1.254:8000',
     randy: 'http://192.168.1.254:8886',
     // randy: 'http://10.16.188.120:8886',
     // randy: 'http://47.105.71.81:3306',

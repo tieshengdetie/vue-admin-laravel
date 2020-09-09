@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18b5e806-0630-4ff8-9146-16344706ff6e" name="Default Changelist" comment="" />
+    <list default="true" id="18b5e806-0630-4ff8-9146-16344706ff6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +183,9 @@
       <workItem from="1597622765798" duration="27814000" />
       <workItem from="1597710353606" duration="637000" />
       <workItem from="1597711051710" duration="27197000" />
-      <workItem from="1597794688674" duration="32419000" />
+      <workItem from="1597794688674" duration="35252000" />
+      <workItem from="1599101068114" duration="68000" />
+      <workItem from="1599101141810" duration="1208000" />
     </task>
     <servers />
   </component>
@@ -217,10 +221,11 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1440.829/1440.23.1920.1057@0.23.1440.829" timestamp="1596769183795" />
-    <state x="397" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1597794689320">
+    <state x="397" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1599101070216">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="397" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.829/1440.23.1920.1057@0.23.1440.829" timestamp="1597794689320" />
+    <state x="397" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.829@0.23.1440.829" timestamp="1599101070216" />
     <state x="369" y="60" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597736670384">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
