@@ -12,11 +12,9 @@ function resolve(dir) {
     return path.join(__dirname, dir)
 }
 const proxyTargetMap = {
-    prod: 'http://192.168.1.254:8000',
-    randy: 'http://192.168.1.254:8886',
-    // randy: 'http://10.16.188.120:8886',
-    // randy: 'http://47.105.71.81:3306',
-    peter: 'http://192.168.11.178:3001'
+    prod: 'http://192.168.3.25:8080',
+    randy: 'http://192.168.3.25:8080',
+    peter: 'http://192.168.3.25:8080'
 }
 let proxyTarget = proxyTargetMap[process.env.API_TYPE] || proxyTargetMap.prod
 let publicPath = process.env.NODE_ENV === 'production' ? '/' : '/'
@@ -104,7 +102,7 @@ module.exports = {
         open: process.platform === 'darwin',
         // host: 'localhost',
         host: '0.0.0.0',
-        port: 8080,
+        port: 8000,
         https: false,
         hotOnly: false,
         // eslint-disable-next-line no-dupe-keys

@@ -98,6 +98,7 @@
       <excludeFolder url="file://$MODULE_DIR$/wind_php/vendor/tijsverkoyen/css-to-inline-styles" />
       <excludeFolder url="file://$MODULE_DIR$/wind_php/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/wind_php/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/wind_php/vendor/symfony/polyfill-intl-normalizer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

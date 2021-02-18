@@ -7,6 +7,9 @@ import Forbidden from '@/pages/errorPage/403'
 import Layout from '@/pages/layout/index'
 import Home from '@/pages/home/index'
 
+//前台布局
+import FrontHome from '@/pages/front/home/index'
+
 Vue.use(Router)
 
 /* 初始路由 */
@@ -15,6 +18,10 @@ export default new Router({
         {
             path: '/login',
             component: Login
+        },
+        {
+            path:'/front-home',
+            component: FrontHome
         }
     ],
     mode:'history'

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18b5e806-0630-4ff8-9146-16344706ff6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/newWind.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/newWind.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wind_php/composer.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +17,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/wind_php/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,6 +125,7 @@
       <path value="$PROJECT_DIR$/wind_php/vendor/psy/psysh" />
       <path value="$PROJECT_DIR$/wind_php/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/wind_php/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/wind_php/vendor/symfony/polyfill-intl-normalizer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ffAGk8bAGVVIsLKCQTkWeewtPz" />
@@ -128,13 +133,14 @@
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wind_vue/src/pages/gate-manage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -143,16 +149,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wind_php/public/uploads/jpeg" />
-      <recent name="$PROJECT_DIR$/wind_vue/src/assets" />
-      <recent name="$PROJECT_DIR$/wind_php/app/Repository/Permission" />
-      <recent name="$PROJECT_DIR$/wind_vue/src/router" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wind_vue/src/pages/gate-manage" />
       <recent name="$PROJECT_DIR$/wind_vue/src/pages/permission/dept-manage" />
@@ -160,7 +161,14 @@
       <recent name="$PROJECT_DIR$/wind_php/app/Repository/Permission" />
       <recent name="$PROJECT_DIR$/wind_vue/src/common" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wind_php/public/uploads/jpeg" />
+      <recent name="$PROJECT_DIR$/wind_vue/src/assets" />
+      <recent name="$PROJECT_DIR$/wind_php/app/Repository/Permission" />
+      <recent name="$PROJECT_DIR$/wind_vue/src/router" />
+    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -192,57 +200,25 @@
       <workItem from="1603417319246" duration="535000" />
       <workItem from="1604378407658" duration="251000" />
       <workItem from="1604400106226" duration="619000" />
+      <workItem from="1612340606282" duration="1923000" />
+      <workItem from="1612658966692" duration="4087000" />
+      <workItem from="1613611946753" duration="11881000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="321" y="104" key="#Log_Highlighting_(ideolog)" timestamp="1597365539205">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="321" y="104" key="#Log_Highlighting_(ideolog)/0.23.1440.829/1440.23.1920.1057@0.23.1440.829" timestamp="1597365539205" />
-    <state x="370" y="248" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597376312198">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="370" y="248" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.829/1440.23.1920.1057@0.23.1440.829" timestamp="1597376312198" />
-    <state x="392" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596617063407">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="392" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.829/1440.23.1920.1057@0.23.1440.829" timestamp="1596617063407" />
-    <state x="459" y="200" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597306056703">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="459" y="200" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.829/1440.23.1920.1057@0.23.1440.829" timestamp="1597306056703" />
-    <state x="538" y="368" key="NewPhpFileDialog" timestamp="1597283394796">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="538" y="368" key="NewPhpFileDialog/0.23.1440.829/1440.23.1920.1057@0.23.1440.829" timestamp="1597283394796" />
-    <state x="221" y="76" key="SettingsEditor" timestamp="1597024677954">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="221" y="76" key="SettingsEditor/0.23.1440.829/1440.23.1920.1057@0.23.1440.829" timestamp="1597024677954" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1596769183795">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1440.829/1440.23.1920.1057@0.23.1440.829" timestamp="1596769183795" />
-    <state x="397" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1604400107339">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="397" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.829/1440.23.1920.1057@0.23.1440.829" timestamp="1597794689320" />
-    <state x="397" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.829@0.23.1440.829" timestamp="1604400107339" />
-    <state x="369" y="60" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597736670384">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="369" y="60" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.829/1440.23.1920.1057@0.23.1440.829" timestamp="1597736670384" />
-    <state x="378" y="194" width="683" height="486" key="find.popup" timestamp="1597028944749">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="378" y="194" width="683" height="486" key="find.popup/0.23.1440.829/1440.23.1920.1057@0.23.1440.829" timestamp="1597028944749" />
-    <state x="386" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1597734437049">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="386" y="176" width="670" height="676" key="search.everywhere.popup/0.23.1440.829/1440.23.1920.1057@0.23.1440.829" timestamp="1597734437049" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
