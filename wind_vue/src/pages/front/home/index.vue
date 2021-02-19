@@ -2,17 +2,18 @@
     <div class="main-div">
 
         <div class="header">
-            <div class="header-box">
+            <div class="header-banner w"></div>
+            <div class="header-box w">
                 <div class="l-home">
                     <ul>
                         <li><a href="">首页</a></li>
+                        <li><a href="">媒体浏览</a></li>
+                        <li><a href="">两个责任</a></li>
                         <li><a href="">企业简介</a></li>
                         <li><a href="">企业文化</a></li>
-                        <li><a href="">领导简介</a></li>
-                        <li><a href="">机构设置</a></li>
-                        <li><a href="">企业资质</a></li>
-                        <li><a href="">通讯录</a></li>
-                        <li><a href="">企业一体化平台</a></li>
+                        <li><a href="">邮箱查询</a></li>
+                        <li><a href="">部室导航</a></li>
+                        <li><a href="">文件纪要</a></li>
                     </ul>
                 </div>
             </div>
@@ -33,15 +34,23 @@ export default {
 $libg:"../../../assets/";
 .main-div {
     /*border: 1px solid red;*/
+    .w{
+        width: 1100px;
+    }
     .header{
-        background: url('#{$libg}/image/front/bg_head.png') repeat-x 0 -162px;
+        background: url('#{$libg}/image/front/bg_head.png') repeat-x 0 35px;
+
+        .header-banner{
+            margin: 0 auto;
+            height: 197px;
+            background: url('#{$libg}/image/front/rs_banner.gif');
+        }
         .header-box{
 
             font-size: 16px;
             color: #fff;
             font-family: microsoft Yahei;
             margin: 0 auto;
-            width:1100px;
             .l-home{
                 height: 50px;
                 ul {
