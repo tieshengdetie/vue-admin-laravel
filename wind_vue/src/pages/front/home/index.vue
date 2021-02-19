@@ -5,9 +5,14 @@
             <div class="header-box">
                 <div class="l-home">
                     <ul>
-                        <li><a href="">logo</a></li>
-                        <li><a href="">设为首页</a></li>
-                        <li><a href="">手机版</a></li>
+                        <li><a href="">首页</a></li>
+                        <li><a href="">企业简介</a></li>
+                        <li><a href="">企业文化</a></li>
+                        <li><a href="">领导简介</a></li>
+                        <li><a href="">机构设置</a></li>
+                        <li><a href="">企业资质</a></li>
+                        <li><a href="">通讯录</a></li>
+                        <li><a href="">企业一体化平台</a></li>
                     </ul>
                 </div>
             </div>
@@ -25,29 +30,29 @@ export default {
 </script>
 
 <style lang="scss" rel="stylesheet/scss" scoped>
-
+$libg:"../../../assets/";
 .main-div {
-    border: 1px solid red;
-
+    /*border: 1px solid red;*/
     .header{
+        background: url('#{$libg}/image/front/bg_head.png') repeat-x 0 -162px;
         .header-box{
-            background-color: #9f0007;
+
             font-size: 16px;
             color: #fff;
             font-family: microsoft Yahei;
+            margin: 0 auto;
+            width:1100px;
             .l-home{
                 height: 50px;
-                width:1200px;
-                margin: 0 auto;
                 ul {
-                    width:50%;
+                    /*width:50%;*/
                     height: 50px;
                     clear:both;
                     li{
                         float: left;
                         width:135px;
                         padding-right: 2px;
-                        //background: url(../../../../assets/image/front/dyw920_xz.png) 14px center no-repeat;
+                        background: url('#{$libg}/image/front/bg_ulli.png') right center no-repeat;
                         a{
                             display: block;
                             text-align: center;
