@@ -2,7 +2,12 @@
     <div class="main-div">
 
         <div class="header">
-            <div class="header-banner w"></div>
+            <div class="header-banner">
+
+            </div>
+<!--            <div class="header-banner w">-->
+<!--                <img src="../../../assets//image/front/rs_banner.gif" alt="">-->
+<!--            </div>-->
             <div class="header-box w">
                 <div class="l-home">
                     <ul>
@@ -33,17 +38,21 @@ export default {
 <style lang="scss" rel="stylesheet/scss" scoped>
 $libg:"../../../assets/";
 .main-div {
-    /*border: 1px solid red;*/
     .w{
         width: 1100px;
     }
     .header{
-        background: url('#{$libg}/image/front/bg_head.png') repeat-x 0 35px;
+        background: url('#{$libg}/image/front/bg_head.png') repeat-x 0 0 ;
 
         .header-banner{
             margin: 0 auto;
-            height: 197px;
-            background: url('#{$libg}/image/front/rs_banner.gif');
+            height: 162px;
+            background: url('#{$libg}/image/front/bg_head2.jpg') no-repeat center top ;
+            img{
+                width: 1100px;
+                height: 100%;
+            }
+
         }
         .header-box{
 
@@ -51,6 +60,8 @@ $libg:"../../../assets/";
             color: #fff;
             font-family: microsoft Yahei;
             margin: 0 auto;
+            //background: url('#{$libg}/image/front/bg_menu.png') repeat-x 0 0;
+            //background-color: #9F0007;
             .l-home{
                 height: 50px;
                 ul {
