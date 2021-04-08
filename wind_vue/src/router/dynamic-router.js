@@ -11,6 +11,10 @@ const Sensordata = () => import('@/pages/gate-manage/sensordata')
 const Gatelist = () => import('@/pages/gate-manage/gatelist')
 const Sensorlist = () => import('@/pages/gate-manage/sensorlist')
 const Datagraph = () => import('@/pages/gate-manage/datagraph')
+// 库存管理
+const ApplyList = () => import('@/pages/goods-manage/apply/applyList')
+const ApplyDetail = () => import('@/pages/goods-manage/apply/applyDetail')
+const ApplyAdd = () => import('@/pages/goods-manage/apply/applyAdd')
 /* 需要权限判断的路由 */
 const dynamicRoutes = [
 
@@ -73,6 +77,48 @@ const dynamicRoutes = [
             //         icon: 'tree'
             //     }
             // }
+        ]
+    },
+    {
+        path: '/goods',
+        component: Permission,
+        name: 'goods',
+        meta: {
+            name: '库存管理',
+            is_menu:true,
+            icon: 'table'
+        },
+        children: [
+            {
+                path: 'applyList',
+                name: 'apply-list',
+                component: ApplyList,
+                meta: {
+                    name: '配件申请列表',
+                    is_menu: true,
+                    icon: 'eye'
+                }
+            },
+            {
+                path: 'applyDetail',
+                name: 'apply-detail',
+                component: ApplyDetail,
+                meta: {
+                    name: '配件申请详情页',
+                    is_menu: false,
+                    icon: 'tree'
+                }
+            },
+            {
+                path: 'applyAdd',
+                name: 'apply-add',
+                component: ApplyAdd,
+                meta: {
+                    name: '新增配件申请',
+                    is_menu: false,
+                    icon: 'form'
+                },
+            },
         ]
     },
     {
