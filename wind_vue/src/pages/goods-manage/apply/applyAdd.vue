@@ -25,10 +25,10 @@
                 </el-col>
             </el-row>
             <el-form-item label="申请物品：" :label-width="formLabelWidth">
-                <el-button type="primary" icon="el-icon-plus" circle size="mini"></el-button>
+                <el-button type="primary" icon="el-icon-plus" circle size="mini" @click="goodsAdd"></el-button>
             </el-form-item>
 
-            <div class="goods-item">
+            <!-- <div class="goods-item">
                 <el-row>
                     <el-col :span="8">
                         <el-form-item label="名称" :label-width="formLabelWidth">
@@ -70,6 +70,32 @@
                 <el-row class="delele-item">
                     <el-button type="danger" icon="el-icon-close" plain circle size="mini"></el-button>
                 </el-row>
+            </div> -->
+
+            <!-- 新增物品信息列表 -->
+            <div class="goods-table">
+                <el-table
+                    :data="goodsTableData"
+                    style="width: 100%">
+                    <el-table-column
+                        prop="name"
+                        label="名称"
+                        width="180">
+                    </el-table-column>
+                    <el-table-column
+                        prop="type"
+                        label="类型"
+                        width="180">
+                    </el-table-column>
+                    <el-table-column
+                        prop="number"
+                        label="数量">
+                    </el-table-column>
+                    <el-table-column
+                        prop="remark"
+                        label="备注">
+                    </el-table-column>
+                </el-table>
             </div>
 
             <el-upload
@@ -86,6 +112,44 @@
                 <el-button @click="goBack">取消</el-button>
             </el-form-item>
         </el-form>
+
+        <!-- 新增申请物品弹窗 -->
+        <div>
+            <el-dialog title="新增物品信息" :visible.sync="dialogFormVisible">
+                <el-form :model="form">
+                    <el-form-item label="物品名称" :label-width="formLabelWidth">
+                        <el-select v-model="form.name" placeholder="请选择">
+                            <el-option
+                                v-for="item in options"
+                                :key="item.value"
+                                :label="item.label"
+                                :value="item.value">
+                            </el-option>
+                        </el-select>
+                    </el-form-item>
+                    <el-form-item label="物品规格" :label-width="formLabelWidth">
+                        <el-select v-model="form.type" placeholder="请选择">
+                            <el-option
+                                v-for="item in options"
+                                :key="item.value"
+                                :label="item.label"
+                                :value="item.value">
+                            </el-option>
+                        </el-select>
+                    </el-form-item>
+                    <el-form-item label="物品数量" :label-width="formLabelWidth">
+                        <el-input v-model="form.number" autocomplete="off"></el-input>
+                    </el-form-item>
+                    <el-form-item label="备注" :label-width="formLabelWidth">
+                        <el-input v-model="form.remark" autocomplete="off"></el-input>
+                    </el-form-item>
+                </el-form>
+                <div slot="footer" class="dialog-footer">
+                    <el-button @click="dialogFormVisible = false">取 消</el-button>
+                    <el-button type="primary" @click="dialogFormVisible = false">确 定</el-button>
+                </div>
+            </el-dialog>
+        </div>
     </el-card>
 </template>
 
@@ -93,6 +157,8 @@
 export default {
     data() {
         return {
+            dialogTableVisible: false,
+            dialogFormVisible: false,
             form: {
                 date: "2021/04/07",
                 person: "",
@@ -117,9 +183,13 @@ export default {
                 label: '北京烤鸭'
             }],
             value: '',
+            goodsTableData: [],
         }
     },
     methods: {
+        goodsAdd() {
+            this.dialogFormVisible = true;
+        },
         onSubmit() {
             console.log("提交");
         },
@@ -141,7 +211,7 @@ export default {
     margin-top: 30px;
     margin-bottom: 60px;
 }
-.goods-item {
+/* .goods-item {
     margin-left: 40px;
     padding-right: 30px;
     padding-top: 25px;
@@ -150,9 +220,13 @@ export default {
 }
 .delele-item {
     text-align: center;
+} */
+.goods-table {
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .upload-demo {
-    margin-top: 30px;
+    margin-top: 80px;
     text-align: center;
 }
 .btn-group {

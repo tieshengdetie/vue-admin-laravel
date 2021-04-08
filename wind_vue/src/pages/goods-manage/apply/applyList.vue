@@ -134,7 +134,7 @@
 
         <!-- 领用弹框 -->
         <div>
-            <el-dialog title="确认领用单" :visible.sync="dialogFormVisible" class="receive-dialog">
+            <el-dialog title="确认领用单" :visible.sync="dialogFormVisible">
                 <el-form :model="form">
                     <el-form-item label="领用日期" :label-width="formLabelWidth">
                         <el-input v-model="form.date" autocomplete="off" :disabled="true"></el-input>
